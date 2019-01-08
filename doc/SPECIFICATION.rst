@@ -13,7 +13,7 @@ Specification
 FlatMaps
 ========
 
-::
+.. code-block:: python
 
 	fm = FlatMap()
 
