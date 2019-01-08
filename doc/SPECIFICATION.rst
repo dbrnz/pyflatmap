@@ -6,7 +6,9 @@ Details
 Specification
 -------------
 
-* Python based DSL. ``pyflatmap`` Python package::
+* Python based DSL. ``pyflatmap`` Python package:
+
+.. code-block:: python
 
 	import FlatMap, Layer, Component, Style, Geometry from PyFlatMap
 
@@ -29,13 +31,13 @@ FlatMaps
 Layers
 ------
 
-::
+.. code-block:: python
 
 	# A map has layers, initially just the base layer (layer 0)
 	# Layers are accessed by index
 
 	fm.add_layer(Layer())
-	fm.layer[n].   # n >= 0
+	fm.layer[n]   # n >= 0
 
 	# Layer visibility, order, opacity
 	# Can any Layer have a background image??
@@ -43,7 +45,7 @@ Layers
 Components
 ==========
 
-::
+.. code-block:: python
 
 	c = Component()
 	c.style = Style()
@@ -62,7 +64,7 @@ Components
 Connections
 ===========
 
-::
+.. code-block:: python
 
 	Connection(c1, c2)
 
@@ -70,7 +72,7 @@ Connections
 Diagrams
 ========
 
-::
+.. code-block:: python
 
 	# A Diagram represents the visual representation of a FlatMap
 	# A FlatMap may be displayed in different Diagrams
@@ -80,7 +82,6 @@ Diagrams
 	# Size (width, height) are part of displaying the map
 	# In what units?
 	#d.width, d.height # or d.size = (w, h)
-
 
 
 
