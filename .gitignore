@@ -1,0 +1,7 @@
+.cache/
+.DS_Store
+dist/
+NaviCell_lib_map_icons/
+node_modules/
+*.pyc
+*.pyo
